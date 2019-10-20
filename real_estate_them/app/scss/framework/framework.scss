@@ -1,0 +1,109 @@
+@import "reset";
+@import "layout";
+
+/**
+ * Code your Styleguide
+ */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+$blue: #004DFF;
+$yellow: #FF9F00;
+$green: #1DC679;
+$grey: #7C7C7C;
+$lightgrey: #F6F7F9;
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+section.area {
+  .sectionTitle {
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 40px;
+    font-weight: 600;
+  }
+}
+
+.blue-button {
+  background: $blue;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  border-radius: 100px;
+  transition: .2s;
+  &:hover {
+    background: $yellow;
+  }
+}
+
+.green-button {
+  background: $green;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  border-radius: 100px;
+  transition: .2s;
+  &:hover {
+    background: $yellow;
+  }
+}
+
+.yellow-button {
+  background: $yellow;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  border-radius: 100px;
+  transition: .2s;
+  &:hover {
+    background: $green;
+  }
+}
+
+.blue-label {
+  background: $blue;
+  padding: 10px 20px;
+  border-radius: 7px;
+  color: #fff;
+  font-size: 18px;
+  &.sm {
+    font-size: 14px;
+  }
+  &.lg {
+    font-size: 24px;
+  }
+}
+
+.green-label {
+  background: $green;
+  padding: 10px 20px;
+  border-radius: 7px;
+  color: #fff;
+  font-size: 18px;
+  &.sm {
+    font-size: 14px;
+  }
+  &.lg {
+    font-size: 24px;
+  }
+}
+
+.yellow-label {
+  background: $yellow;
+  padding: 10px 20px;
+  border-radius: 7px;
+  color: #fff;
+  font-size: 18px;
+  &.sm {
+    font-size: 14px;
+  }
+  &.lg {
+    font-size: 24px;
+  }
+}
+
+
